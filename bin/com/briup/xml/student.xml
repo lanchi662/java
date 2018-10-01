@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+<!-- 内部DTD -->
+<!ELEMENT students (student*)>
+<!ELEMENT student (name,age)>
+<!--对属性进行约束-->
+<!ATTLIST 
+		student id ID #REQUIRED gender (男|女) #REQUIRED shcoolname CDATA #FIXED "兰州理工">
+]>
+<students>
+	<student id="JD201801" gender="女">
+	<name>tom</name>
+	<age>20</age>
+	</student>
+	<student id="JD201802" gender="女">
+	<name>san</name>
+	<age>21</age>
+	</student>
+	<student id="JD201803" gender="女">
+	<name>lala</name>
+	<age>22</age>
+	</student>
+</students>

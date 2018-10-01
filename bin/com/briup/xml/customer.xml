@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE customers [
+<!ELEMENT customers (customer+)>
+<!ELEMENT customer (#PCDATA)>
+<!ATTLIST customer
+				name CDATA #REQUIRED>
+]>
+<customers>
+<customer name="tom">55.26</customer>
+<customer name="alexlee">111.22</customer>
+<customer name="jack">777</customer>
+<customer name="lala">333.88</customer>
+<customer name="ssss">222.89</customer>
+<customer name="sasa">333.33</customer>
+</customers>
